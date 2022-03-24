@@ -12,7 +12,6 @@ export const useCountry = (name) => {
       })
   }, [name])
 
-  console.log(country)
   return country
 }
 
